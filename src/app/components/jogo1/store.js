@@ -1,9 +1,11 @@
+import { useState } from 'react';
 
-import create from 'zustand';
+function SeuComponente() {
+  const [pular, setPular] = useState(false);
 
-const usaStorea = create(set => ({
-  pular: false,
-  setPular: () => set(state => ({ pular: !state.pular })),
-}));
+  const togglePular = () => {
+    setPular(prevPular => !prevPular);
+  };
 
-export default usaStorea;
+  // ...
+}

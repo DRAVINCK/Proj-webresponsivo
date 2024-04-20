@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="../jogos"
+          href="./components/jogo1"
           className={styles.card}
           target="_blank"
 
