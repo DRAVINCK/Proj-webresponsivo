@@ -1,10 +1,11 @@
 'use client'
 
 import React from 'react';
-import styles from './page.module.css';
+import styles from './bolinha.module.css';
 import usaStorea from './store.js'; // import useStore from the correct file
 
-export default function Home() {
+
+const Bolinha = ()=> {
   const pular = usaStorea(state => state.pular);
   const setPular = usaStorea(state => state.setPular);
 
@@ -20,3 +21,4 @@ export default function Home() {
     </div>
   );
 }
+export default Bolinha;

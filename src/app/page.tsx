@@ -1,3 +1,5 @@
+"use client"
+
 import styles from './page.module.css'
 
 export default function Home() {
@@ -12,7 +14,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="./JogosComponents/jogo1"
+          href="../jogos"
           className={styles.card}
           target="_blank"
 
@@ -24,7 +26,7 @@ export default function Home() {
         </a>
 
         <a
-          href="LINKAR JOGO 2"
+          href=""
           className={styles.card}
           target="_blank"
         >
@@ -46,6 +48,8 @@ export default function Home() {
         </a>
 
       </div>
+
+  
     </main>
   )
 }

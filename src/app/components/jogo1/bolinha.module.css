@@ -11,6 +11,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
   }
+
   
   .bolinha {
     width: 50px;
@@ -22,7 +23,7 @@
   }
   
   .bolinha.pular {
-    transform: translateY(-100px);
+    transform: translateY(-90px);
   }
   
   .button {
