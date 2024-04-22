@@ -26,7 +26,7 @@ export default function Home() {
         </a>
 
         <a
-          href=""
+          href="./components/jogo2"
           className={styles.card}
           target="_blank"
         >

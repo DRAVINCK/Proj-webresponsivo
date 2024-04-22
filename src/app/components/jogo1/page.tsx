@@ -1,4 +1,3 @@
-"use client"
 
 import styles from './bolinha.module.css';
 import Bolinha from './bolinha';
