@@ -30,20 +30,13 @@ function Bolinha() {
 
   useEffect(() => {
     if (cardVermelho) {
-      const interval = setInterval(() => {
-        const [r, g, b] = corBolinha.slice(4, -1).split(', ').map(Number);
-        if (r > 0) {
-          setCorBolinha(`rgb(${Math.max(r - 17, 0)}, ${g}, ${b})`); // Diminui o vermelho
-        } else {
-          clearInterval(interval);
-          setCorBolinha('rgb(0,0,255)'); // Redefine a cor da bolinha para azul
-          setCardVermelho(false); // Redefine cardVermelho para false
-          setContador(0); // Redefine o contador de pulos para 0
-        }
-      }, 100);
-      return () => clearInterval(interval);
+      setTimeout(() => {
+        setCardVermelho(false);
+        setContador(0);
+        setCorBolinha('rgb(0, 0, 255)');
+      }, 1000);
     }
-  }, [cardVermelho, corBolinha]);
+  }, [cardVermelho]);
 
   return (
     <div className={`${styles.card} ${cardVermelho ? styles.vermelho : ''}`}>

@@ -37,7 +37,7 @@ export default function Home() {
         </a>
 
         <a
-          href="LINKAR JOGO 3"
+          href="./components/jogo3"
           className={styles.card}
           target="_blank"
         >
