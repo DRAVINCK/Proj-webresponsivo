@@ -33,7 +33,7 @@ export default function Home() {
           <h2>
             JOGO 2 <span>-&gt;</span>
           </h2>
-          <p>JOGO DE TROCAR O OBJETO.</p>
+          <p>JOGO DO BOTAO MAGICO.</p>
         </a>
 
         <a
