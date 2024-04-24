@@ -1,14 +1,16 @@
 
-import Relogio from './relogio';
-import styles from './.module.css';
-
+import styles from './Quadrado.module.css'
+import Quadrado from './Quadrado'
 
 export default function Home() {
-    return (
-        <div className={styles.container}>
-            <h1>Relógio</h1>
-            <Relogio />
-        </div>
-    );
-
+  return (
+    <main className={styles.main}>
+      <Quadrado/>
+      <Quadrado/>
+      <Quadrado/>
+      <Quadrado/>
+      <Quadrado/>
+  
+    </main>
+  )
 }

@@ -28,7 +28,7 @@ export default function Home() {
         <a
           href="./components/jogo2"
           className={styles.card}
-          target="_blank"
+          
         >
           <h2>
             JOGO 2 <span>-&gt;</span>
@@ -39,7 +39,7 @@ export default function Home() {
         <a
           href="./components/jogo3"
           className={styles.card}
-          target="_blank"
+          
         >
           <h2>
             JOGO 3 <span>-&gt;</span>

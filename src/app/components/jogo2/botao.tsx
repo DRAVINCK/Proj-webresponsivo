@@ -20,9 +20,10 @@ const BotaoDesaparecer: React.FC = () => {
   };
 
   return (
+    
     <div>
       {isVisible ? (
-        <button className={styles.button} onClick={handleClick}>Clique Aqui</button>
+        <><h1>Truque de mágica!</h1><button className={styles.button} onClick={handleClick}>Clique Aqui</button></>
       ) : (
         <p>Botão escondido. Voltará em {countdown} segundos.</p>
       )}
